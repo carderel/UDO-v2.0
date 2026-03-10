@@ -1,0 +1,75 @@
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.sublime-project
+.sublime-workspace
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+env/
+.venv
+
+# Temp/Build
+*.tmp
+*.bak
+*.swp
+dist/
+build/
+.cache/
+
+# Project specific - exclude actual project outputs but keep structure
+UDO Project/.outputs/*
+!UDO Project/.outputs/.gitkeep
+
+UDO Project/.memory/working/*
+!UDO Project/.memory/working/.gitkeep
+
+UDO Project/.memory/disposable/*
+!UDO Project/.memory/disposable/.gitkeep
+
+UDO Project/User Uploads/*
+!UDO Project/User Uploads/.gitkeep
+
+# Session data - transient
+UDO Project/.project-catalog/sessions/*
+!UDO Project/.project-catalog/sessions/.gitkeep
+
+# Keep history for recovery
+# UDO Project/.project-catalog/history/* is intentionally NOT ignored
+
+# Backups - exclude large backup files but keep structure
+UDO Project/.project-catalog/backups/*
+!UDO Project/.project-catalog/backups/.gitkeep
+
+# Checkpoints - exclude large checkpoint files
+UDO Project/.project-catalog/checkpoints/*
+!UDO Project/.project-catalog/checkpoints/.gitkeep
+
+UDO Project/.checkpoints/*
+!UDO Project/.checkpoints/.gitkeep
+
+# Do NOT ignore .project-catalog itself - it contains important metadata
+# Do NOT ignore .memory/canonical - it's the source of truth
+# Do NOT ignore PROJECT_STATE.json - it's tracked
+# Do NOT ignore PROJECT_META.json - it's tracked
