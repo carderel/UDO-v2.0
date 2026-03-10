@@ -1,0 +1,45 @@
+{
+  "manifest": "UDO Project Manifest",
+  "type": "project",
+  "version": "2.0",
+  "udo_version": "2.0",
+  "framework_reference": "UDO Framework v2.0",
+  "description": "Project template and state management following UDO v2.0 framework",
+  "immutable": false,
+  "created": "2026-03-10",
+  "structure": {
+    "configuration_files": [
+      "PROJECT_STATE.json",
+      "PROJECT_META.json",
+      "CAPABILITIES.json",
+      "HARD_STOPS.md",
+      "NON_GOALS.md",
+      "LESSONS_LEARNED.md"
+    ],
+    "directories": {
+      ".memory": "Session memory management (canonical/working/disposable)",
+      ".outputs": "Generated outputs and deliverables",
+      ".project-catalog": "Project operations records (sessions/decisions/backups/checkpoints)",
+      ".checkpoints": "State snapshots and recovery points",
+      ".agents": "External agent definitions",
+      ".rules": "Project-specific rules and standards",
+      ".inputs": "Input materials and requirements",
+      "User Uploads": "User-provided files and materials"
+    }
+  },
+  "key_features": {
+    "memory_management": "Three-level memory (canonical/working/disposable)",
+    "session_logging": "Complete session tracking and handoff protocol",
+    "decision_logging": "Rationale capture for all significant decisions",
+    "checkpoint_system": "State snapshots for recovery and versioning",
+    "bridge_protocol": "Multi-agent coordination via .bridge/",
+    "protocol_compliance": "Strict adherence to framework hard stops"
+  },
+  "framework_inheritance": {
+    "inherits_from": "UDO Framework v2.0",
+    "reference_path": "../UDO Framework/",
+    "relationship": "Project extends and uses framework but does not modify it",
+    "rule_hierarchy": "Framework rules override project rules when conflict exists"
+  },
+  "note": "This project folder is mutable and project-specific. The UDO Framework folder is immutable and shared."
+}

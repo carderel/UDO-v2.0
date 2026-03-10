@@ -1,0 +1,23 @@
+{
+  "project_state": {
+    "project_name": "New Project",
+    "project_id": "placeholder-project-id",
+    "status": "initialized",
+    "udo_version": "2.0",
+    "created": "2026-03-10",
+    "last_updated": "2026-03-10",
+    "last_updated_by": "system-placeholder",
+    "current_phase": "setup",
+    "completion_percentage": 0,
+    "owner": "User",
+    "active_agent": null,
+    "session_count": 0,
+    "prompt_count": 0,
+    "prompt_counter": {
+      "count_since_last_state_update": 0,
+      "last_state_update_session": "none"
+    },
+    "checkpoints": [],
+    "notes": "Project initialized from UDO v2.0 template"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "project_metadata": {
+    "project_name": "New Project",
+    "project_id": "placeholder-project-id",
+    "udo_version": "2.0",
+    "framework_version": "2.0",
+    "created": "2026-03-10",
+    "owner": "User",
+    "description": "New project using UDO v2.0 framework",
+    "tags": [],
+    "public": false,
+    "archived": false,
+    "contact": {
+      "primary": "User",
+      "email": ""
+    },
+    "configuration": {
+      "memory_strategy": "canonical-working-disposable",
+      "session_logging": true,
+      "decision_logging": true,
+      "auto_checkpoint": true,
+      "protocol_strict": true
+    }
+  }
+}
