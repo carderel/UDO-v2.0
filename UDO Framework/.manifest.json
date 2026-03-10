@@ -1,0 +1,33 @@
+{
+  "manifest": "UDO Framework Manifest",
+  "type": "framework",
+  "version": "2.0",
+  "description": "Immutable core framework for Universal Dynamic Orchestrator",
+  "immutable": true,
+  "contents": {
+    "documentation": [
+      "ORCHESTRATOR.md",
+      "START_HERE.md",
+      "COMMANDS.md",
+      "HARD_STOPS.md",
+      "FRAMEWORK-README.md"
+    ],
+    "protocols": [
+      "REASONING_CONTRACT.md",
+      "DEVILS_ADVOCATE.md",
+      "AUDIENCE_ANTICIPATION.md",
+      "EVIDENCE_PROTOCOL.md",
+      "TEACH_BACK_PROTOCOL.md",
+      "OVERSIGHT_DASHBOARD.md",
+      "HANDOFF_PROMPT.md"
+    ],
+    "infrastructure_dirs": [
+      ".bridge",
+      ".templates",
+      ".takeover",
+      ".tools"
+    ]
+  },
+  "created": "2026-03-10",
+  "note": "This framework is read-only and immutable. All project-specific content belongs in UDO Project folder."
+}
