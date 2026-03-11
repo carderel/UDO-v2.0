@@ -505,7 +505,9 @@ if [ "$INSTALL_TYPE" = "fresh" ]; then
     echo "  1. cd UDO"
     echo "  2. Edit UDO/Project/PROJECT_META.json to define your project"
     echo "  3. Edit UDO/Project/PROJECT_STATE.json to set initial state"
-    echo "  4. Run: claude -p ."
+    echo "  4. Start your LLM CLI from the UDO Project folder"
+    echo ""
+    echo "⚠️  IMPORTANT: Your LLM must be run from within the UDO Project directory for proper context loading."
 elif [ "$INSTALL_TYPE" = "migrate-v4" ]; then
     echo -e "${GREEN}✓ Upgraded from $CURRENT_VERSION to v2.0${NC}"
     echo -e "✓ All data preserved in UDO/UDO Project/"
@@ -514,7 +516,9 @@ elif [ "$INSTALL_TYPE" = "migrate-v4" ]; then
     echo "Next steps:"
     echo "  1. Review UDO/UDO Project/PROJECT_META.json"
     echo "  2. Review migration in UDO/UDO Project/"
-    echo "  3. Run: claude -p ."
+    echo "  3. Start your LLM CLI from the UDO Project folder"
+    echo ""
+    echo "⚠️  IMPORTANT: Your LLM must be run from within the UDO Project directory for proper context loading."
 elif [ "$INSTALL_TYPE" = "upgrade-v4" ]; then
     echo -e "${GREEN}✓ Upgraded from $CURRENT_VERSION${NC}"
     echo -e "✓ v4.x structure preserved (backward compatible)${NC}"

@@ -90,7 +90,9 @@ Next steps:
   1. cd UDO
   2. Edit UDO/Project/PROJECT_META.json to define your project
   3. Edit UDO/Project/PROJECT_STATE.json to set initial state
-  4. Run: claude -p .
+  4. Start your LLM CLI from the UDO Project folder
+
+⚠️  IMPORTANT: Your LLM must be run from within the UDO Project directory for proper context loading.
 ```
 
 ---
@@ -154,7 +156,9 @@ Will MIGRATE (v4.x → v2.0):
 Next steps:
   1. Review UDO/UDO Project/PROJECT_META.json
   2. Review migration in UDO/UDO Project/
-  3. Run: claude -p .
+  3. Start your LLM CLI from the UDO Project folder
+
+⚠️  IMPORTANT: Your LLM must be run from within the UDO Project directory for proper context loading.
 
 If something went wrong, restore from backup:
   rm -rf UDO && mv .udo-backup-[timestamp] UDO

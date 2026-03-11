@@ -480,7 +480,9 @@ if ($INSTALL_TYPE -eq "fresh") {
     Write-Host "  1. cd UDO"
     Write-Host "  2. Edit UDO/Project/PROJECT_META.json to define your project"
     Write-Host "  3. Edit UDO/Project/PROJECT_STATE.json to set initial state"
-    Write-Host "  4. Run: claude -p ."
+    Write-Host "  4. Start your LLM CLI from the UDO Project folder"
+    Write-Host ""
+    Write-Host "⚠️  IMPORTANT: Your LLM must be run from within the UDO Project directory for proper context loading." -ForegroundColor Yellow
 } elseif ($INSTALL_TYPE -eq "migrate-v4") {
     Write-Host "✓ Upgraded from $CURRENT_VERSION to v2.0" -ForegroundColor Green
     Write-Host "✓ All data preserved in UDO/UDO Project/"
@@ -489,7 +491,9 @@ if ($INSTALL_TYPE -eq "fresh") {
     Write-Host "Next steps:"
     Write-Host "  1. Review UDO/UDO Project/PROJECT_META.json"
     Write-Host "  2. Review migration in UDO/UDO Project/"
-    Write-Host "  3. Run: claude -p ."
+    Write-Host "  3. Start your LLM CLI from the UDO Project folder"
+    Write-Host ""
+    Write-Host "⚠️  IMPORTANT: Your LLM must be run from within the UDO Project directory for proper context loading." -ForegroundColor Yellow
 } elseif ($INSTALL_TYPE -eq "upgrade-v4") {
     Write-Host "✓ Upgraded from $CURRENT_VERSION" -ForegroundColor Green
     Write-Host "✓ v4.x structure preserved (backward compatible)" -ForegroundColor Green
